@@ -1,0 +1,23 @@
+[
+  {
+    "user_id": "u-101",
+    "tool_name": "GitHub Copilot",
+    "user_email": "sarah.j@company.com",
+    "last_active_days_ago": 3,
+    "monthly_cost": 19.00
+  },
+  {
+    "user_id": "u-102",
+    "tool_name": "GitHub Copilot",
+    "user_email": "john.d@company.com",
+    "last_active_days_ago": 45,
+    "monthly_cost": 19.00
+  },
+  {
+    "user_id": "u-103",
+    "tool_name": "Asana Enterprise",
+    "user_email": "mike.w@company.com",
+    "last_active_days_ago": 120,
+    "monthly_cost": 35.00
+  }
+]
