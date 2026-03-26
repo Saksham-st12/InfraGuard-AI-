@@ -29,6 +29,23 @@ The frontend interface connects to this backend via a secure **Live Terminal Fee
 
 ---
 
+## 🚀 Future Scope: Full-Scale Real-World Deployment
+If given the opportunity to deploy InfraGuard out of the prototype phase and into a real-world B2B Enterprise SaaS ecosystem, our architecture would scale massively as follows:
+
+1. **Live Cloud Telemetry Ingestion Pipeline**
+   - Instead of procedural simulation, our Node.js edge servers would assume **Read-Only IAM Cross-Account Roles** directly into the customer's AWS/GCP fabrics.
+   - We would ingest gigabytes of massive, unstructured telemetry including **AWS CloudTrail Logs, VPC Flow Logs, and CloudWatch Hardware Metrics** into an Apache Kafka stream.
+
+2. **True Deep Learning & Neural Inference**
+   - The Kafka stream would pipe into a highly sophisticated **XGBoost Classifier** or a Fine-Tuned LLM (deployed via AWS SageMaker or PyTorch). 
+   - The model would be trained on a massive dataset of known structural cloud inefficiencies and historic security breaches. It would autonomously flag anomalous traffic spikes, over-provisioned memory buckets, and exposed port surfaces dynamically.
+
+3. **Closed-Loop Serverless Remediation**
+   - When the user clicks "Execute Playbook" on the dashboard, the frontend would strike a secured AWS Lambda endpoint. 
+   - Utilizing the AWS SDK, the Lambda function would physically compile and securely execute the recommended `TerminateInstances` or `PutBucketPolicy` commands directly on the client's cloud network—resolving the threat and capturing the financial savings instantaneously.
+
+---
+
 ## 🛠️ Tech Stack
 - **Framework**: [Next.js 16.2](https://nextjs.org/) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -39,7 +56,7 @@ The frontend interface connects to this backend via a secure **Live Terminal Fee
 
 ---
 
-## 🚀 Running Locally
+## 💻 Running Locally
 
 Follow these steps to deploy the InfraGuard Inference Dashboard on your local machine.
 
