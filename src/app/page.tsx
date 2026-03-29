@@ -195,7 +195,7 @@ export default function Home() {
         </div>
 
         {/* Right Terminal Window */}
-        <div className="hidden lg:flex w-[400px] flex-shrink-0 flex-col rounded-2xl bg-[#070707] border border-white/10 overflow-hidden shadow-2xl relative">
+        <div className="flex w-full md:w-[320px] lg:w-[400px] h-[250px] md:h-auto flex-shrink-0 flex-col rounded-2xl bg-[#070707] border border-white/10 overflow-hidden shadow-2xl relative">
           <div className="flex border-b border-white/10 bg-[#111] px-4 py-3 items-center justify-between z-10">
              <div className="flex gap-2">
                <div className="w-3 h-3 rounded-full bg-rose-500" />
